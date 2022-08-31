@@ -16,12 +16,12 @@ public class Rectangle {
 
     public String toString() {
         return "AREA = "
-                + area()
+                + String.format("%.2f", area())
                 + "\n"
                 + "PERIMETER = "
-                + perimeter()
+                + String.format("%.2f",perimeter())
                 + "\n"
                 + "Diagonal = "
-                + diagonal();
+                + String.format("%.2f",diagonal());
     }
 }

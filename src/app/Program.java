@@ -18,5 +18,7 @@ public class Program {
         retangulo.width = sc.nextDouble();
 
         System.out.println(retangulo);
+
+        sc.close();
     }
 }

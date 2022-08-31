@@ -22,6 +22,6 @@ public class Rectangle {
                 + String.format("%.2f",perimeter())
                 + "\n"
                 + "Diagonal = "
-                + String.format("%.2f",diagonal());
+                + String.format("%.2f",diagonal());;=
     }
 }
